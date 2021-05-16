@@ -1,9 +1,3 @@
-/*  ____ _____  */
-/* |  _ \_   _|  Derek Taylor (DistroTube) */
-/* | | | || |  	http://www.youtube.com/c/DistroTube */
-/* | |_| || |  	http://www.gitlab.com/dwt1/ */
-/* |____/ |_|  	*/
-
 /* See LICENSE file for copyright and license details. */
 /* Default settings; can be overriden by command line. */
 
@@ -19,8 +13,8 @@ static const char *fonts[] = {
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
 	/*     fg         bg       */
-	[SchemeNorm] = { "#cccccc", "#282a36" },
-	[SchemeSel] = { "#ffffff", "#74438f" },
+	[SchemeNorm] = { "#bda3ed", "#0d0c11" },
+	[SchemeSel] = { "#bda3ed", "#74438f" },
 	[SchemeSelHighlight] = { "#d7d7d7", "#000000" },
 	[SchemeNormHighlight] = { "#a5bdf8", "#000000" },
 	[SchemeOut] = { "#000000", "#00ffff" },
